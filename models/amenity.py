@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+'''Module that contains class Amenity'''
+
+from models.base_model import BaseModel
+
+
+class Amenity(BaseModel):
+    '''This Class is for Amenity instances'''
+    name = ""
